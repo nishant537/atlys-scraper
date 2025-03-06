@@ -76,3 +76,16 @@ Future Improvements
 - Support for PostgreSQL / MongoDB storage.
 - Webhook/email notifications for scraping results.
 - Headless browser integration for JavaScript-heavy pages.
+
+Attached screenshots:
+1. Header Authentication
+![alt text](image.png)
+
+2. scraper api POST /dentalstall/scrape
+![alt text](image-1.png)
+
+3. First Test run, without any cached responses, showing all 24 products are updated in db
+![alt text](image-2.png)
+
+4. Second test run with cached responses, showing 0 are updated in DB, since all are cached
+![alt text](image-3.png)
